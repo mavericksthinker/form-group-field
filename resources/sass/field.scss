@@ -1,0 +1,10 @@
+// Nova Tool CSS
+.btn[dusk='add-button']::before {
+  content: "+";
+  position: relative;
+}
+
+.btn[dusk='delete-button']::before {
+  content: "-";
+  position: relative;
+}
